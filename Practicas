@@ -1,0 +1,22 @@
+#Error de lógica
+# Queremos sumar dos números, pero usamos resta sin darnos cuenta
+a = 10
+b = 5
+
+resultado = a - b  # ERROR de lógica
+print(resultado)
+
+#Error de sintaxis
+# Falta un paréntesis
+print("Hola mundo"
+
+#Error con try (excepción en ejecución)
+
+try:
+    numero = int(input("Escribe un número: "))
+    resultado = 10 / numero
+    print(resultado)
+except ZeroDivisionError:
+    print("No se puede dividir entre cero")
+except ValueError:
+    print("Debes escribir un número válido")
